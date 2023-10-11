@@ -5,7 +5,7 @@
 }
 
 a[href^="mailto:"] {
-    font-size: 16px;
+    font-size: 17px;
     line-height: 32px;
     color: #000000;
   }

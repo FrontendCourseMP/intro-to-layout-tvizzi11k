@@ -4,6 +4,11 @@
     padding: 0%;
 }
 
+:root{
+    font-size: 62.5%;
+
+}
+
 a[href^="mailto:"] {
     font-size: 17px;
     line-height: 32px;
@@ -12,4 +17,8 @@ a[href^="mailto:"] {
 
 ul{
     list-style: none;
+}
+
+nav{
+    display: inline-flex;
 }

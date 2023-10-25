@@ -1,43 +1,72 @@
 * ::after {
-    box-sizing: border-box;
-    margin: 0%;
-    padding: 0%;
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 :root {
-    font-size: 62.5%;
-    --blue: #5956e9;
-    --black: #232233;
-    --gray: #6c6c72;
-    font-family: "Josefin Sans";
-    font-size: 62.5%;
-
+  font-size: 62.5%;
+  --blue: #5956e9;
+  --black: #232233;
+  --gray: #6c6c72;
+  font-family: "Josefin Sans";
+  font-size: 62.5%;
 }
 
 a[href^="mailto:"] {
-    font-size: 17px;
-    line-height: 32px;
-    color: #000000;
+  font-size: 17px;
+  line-height: 32px;
+  color: #000000;
 }
 
 ul {
-    list-style: none;
-    text-align: start;
+  list-style: none;
+  text-align: start;
 }
 
 nav {
-    display: inline-flex;
+  display: inline-flex;
 }
 
-.pColor{
-    color: var(--blue)
+.pColor {
+  color: var(--blue);
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .dColor {
-    background-color: var(--blue);
-    
+  background-color: var(--blue);
+}
+
+.download__list {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.download__list li {
+  width: 96px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.download__list-p {
+  width: 96px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.download_color {
+  color: white;
 }

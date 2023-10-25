@@ -11,6 +11,7 @@
     --gray: #6c6c72;
     font-family: "Josefin Sans";
     font-size: 62.5%;
+
 }
 
 a[href^="mailto:"] {
@@ -21,8 +22,22 @@ a[href^="mailto:"] {
 
 ul {
     list-style: none;
+    text-align: start;
 }
 
 nav {
     display: inline-flex;
+}
+
+.pColor{
+    color: var(--blue)
+}
+
+a {
+    text-decoration: none;
+}
+
+.dColor {
+    background-color: var(--blue);
+    
 }

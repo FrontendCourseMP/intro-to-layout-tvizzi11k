@@ -5,6 +5,8 @@
 }
 
 * {
+  padding: 0px;
+  margin: 0px;
   box-sizing: border-box;
 }
 
@@ -28,12 +30,19 @@ ul {
   text-align: start;
 }
 
+button {
+  border: none;
+  background: none;
+}
+
 nav {
   display: inline-flex;
 }
 
-.pColor {
+.h2 {
   color: var(--blue);
+  padding: 30px 41px 18px 18px;
+  font-size:x-large;
 }
 
 a {
@@ -69,4 +78,135 @@ a {
 
 .download_color {
   color: white;
+}
+
+.position_section_1 {
+  padding-top: 118px;
+  background: url(/images/BackgroundImage.png), lightgray 50% / cover no-repeat;
+}
+
+p {
+  font-size: large;
+}
+
+.posittion_header {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  align-items: center;
+  padding: 3px 3px 3px 9px;
+  border-radius: 3px;
+}
+
+.header {
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+  background: var(--blue);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.a_position {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border-radius: 5px;
+  background: var(--White, #FFF);
+  /* Effect-1 */
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.10);
+  padding: 24px 10px;
+
+}
+
+.link {
+  padding: 12px 6px;
+  background-color: var(--blue);
+  color: white;
+  border-radius: 3px;
+}
+
+
+.burger_menu_button {
+  height: 24px;
+}
+
+.square_hero {
+  background-color: white;
+  padding: 30px 12px 20px 18px;
+  margin-right: 36px;
+  margin-left: 16px;
+  max-width: 400px;
+}
+
+.p_pos {
+  padding: 18px 12px 10px 18px;
+}
+
+.download_button {
+  padding: 30px 74px 19px 18px;
+  font-weight: 700;
+}
+
+
+.MobileAppMockup {
+  margin: 60px 13px 120px 55px;
+}
+
+.h2_2pos {
+  padding-top: 60px;
+  text-align: center;
+  font-size: x-large;
+}
+
+.p_on_top_sec2{
+  margin: 18px 31px 40px 31px;
+  text-align: center;
+  
+}
+
+.appdesign_position {
+  margin: 40px 31px 40px 90px;
+}
+
+.section_2_ul {
+  background-color: whitesmoke;
+  padding: 18px 16px 10px 19px;
+  margin-right: 16px;
+  margin-left: 16px;
+  border-radius: 10px;
+  margin-top: 20px;
+
+}
+
+.about-app-list__header::before {
+  content: url("/images/checkbox.svg");
+  position: absolute;
+  left: -41px;
+}
+
+
+.li_p_pos {
+  padding: 18px 20px 3px 61px;
+  font-size: 190%;
+  font-weight: 700;
+  text-align: left;
+}
+
+.li_p_2_pos {
+  padding: 3px 16px 10px 61px;
+  text-align: left;
+  font-size: medium;
+}
+
+.section_2_ul_2 {
+  background-color: whitesmoke;
+  padding: 18px 16px 10px 19px;
+  margin-right: 16px;
+  margin-left: 16px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 96px;
 }

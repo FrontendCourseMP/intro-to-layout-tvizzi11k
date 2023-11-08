@@ -66,7 +66,7 @@ nav {
 
 .h2 {
   color: var(--blue);
-  padding: 30px 41px 18px 18px;
+  margin: 30px 41px 18px 18px;
   font-size:x-large;
 }
 
@@ -107,7 +107,11 @@ a {
 
 .position_section_1 {
   padding-top: 118px;
-  background: url(/images/BackgroundImage.png), lightgray 50% / cover no-repeat;
+  background: url(/images/BackgroundImage.png); 
+  background-repeat: no-repeat;
+  background-size: fill;
+  background-position: left center;
+
 }
 
 p {
@@ -167,17 +171,18 @@ p {
 }
 
 .p_pos {
-  padding: 18px 12px 10px 18px;
+  margin: 18px 12px 10px 18px;
+  font-weight: 100;
 }
 
 .download_button {
-  padding: 30px 74px 19px 18px;
+  margin: 30px 74px 19px 18px;
   font-weight: 700;
 }
 
 
 .MobileAppMockup {
-  margin: 60px 13px 120px 55px;
+  margin: 0 auto;
 }
 
 .h2_2pos {
@@ -203,13 +208,21 @@ p {
   margin-left: 16px;
   border-radius: 10px;
   margin-top: 20px;
+  position: relative;
 
 }
 
-.about-app-list__header::before {
+.section_2_ul::before {
   content: url("/images/checkbox.svg");
   position: absolute;
-  left: -41px;
+  padding-top: 18px;
+
+}
+
+.section_2_ul_2::before {
+  content: url("/images/checkbox.svg");
+  position: absolute;
+  padding-top: 18px;
 }
 
 
@@ -232,6 +245,12 @@ p {
   margin-right: 16px;
   margin-left: 16px;
   border-radius: 10px;
-  margin-top: 20px;
+  margin-top: 18px;
   margin-bottom: 96px;
+  position: relative;
+}
+
+
+.position_section_2 {
+  
 }

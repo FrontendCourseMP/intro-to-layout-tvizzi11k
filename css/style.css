@@ -182,7 +182,9 @@ p {
 
 
 .MobileAppMockup {
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .h2_2pos {
@@ -252,5 +254,58 @@ p {
 
 
 .position_section_2 {
-  
+  background: url(/images/Rectangle23.svg); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.h2_sec_2_pos {
+  text-align: center;
+  font-size: large;
+  padding-top: 60px;
+  color: white;
+}
+
+.section_2_p_pos {
+  margin: 18px 37px 32px 37px;
+  text-align: center;
+  font-size: medium;
+  font-weight: 0;
+  color: white;
+}
+
+.img_pos_section3 {
+  margin-top: 32px;
+  margin-bottom: 30px;
+  margin-left: 164px;
+  margin-right: 161px;
+}
+
+.position_h3_section_3 {
+  margin: 30px 101px 18px 103px;
+  font-size: large;
+  color: white;
+  text-align: center;
+}
+
+.img_app_pos_section3 {
+  margin: 60px 80px 120px 80px;
+}
+
+.ul_pos_2{
+  padding-bottom: 60px;
+}
+
+.h2_pos_section_4{
+  margin: 103px 71px 18px 16px;
+  font-size: xx-large;
+  text-align: left;
+  font-weight: 100;
+}
+
+.position_p_sec_3{
+  margin: 18px 30px 41px 10px;
+  color: gray;
 }

@@ -99,6 +99,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 60px;
 }
 
 .download_color {
@@ -313,3 +314,21 @@ p {
   margin: 18px 30px 41px 10px;
   color: gray;
 }
+
+.graviti_phone_pos{
+  padding-top: 60px;
+  padding-bottom: 77px;
+}
+
+.section_pos_4{
+  background-image: url(/images/Rectangle15.png);
+}
+
+.h2_pos_section_5{
+  padding: 60px 47px 40px 47px;
+  font-size: x-large;
+  text-align: center;
+  font-weight: 100;
+  color: white;
+}
+

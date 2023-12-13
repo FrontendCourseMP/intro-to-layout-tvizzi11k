@@ -109,8 +109,8 @@ a {
   padding-top: 118px;
   background: url(/images/BackgroundImage.png); 
   background-repeat: no-repeat;
-  background-size: fill;
-  background-position: left center;
+  background-size: cover;
+  overflow: hidden;
 
 }
 
@@ -182,9 +182,12 @@ p {
 
 
 .MobileAppMockup {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
+  padding-left: 55px;
+  padding-right: 55px;
+  padding-top: 45px;
 }
 
 .h2_2pos {
@@ -200,7 +203,8 @@ p {
 }
 
 .appdesign_position {
-  margin: 40px 31px 40px 90px;
+  padding-left: 53px;
+  padding-right: 52px;
 }
 
 .section_2_ul {
@@ -291,7 +295,7 @@ p {
 }
 
 .img_app_pos_section3 {
-  margin: 60px 80px 120px 80px;
+  padding: 60px 80px 120px 80px;
 }
 
 .ul_pos_2{

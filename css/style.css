@@ -282,10 +282,7 @@ p {
 }
 
 .img_pos_section3 {
-  margin-top: 32px;
-  margin-bottom: 30px;
-  margin-left: 164px;
-  margin-right: 161px;
+  padding: 0 auto;
 }
 
 .position_h3_section_3 {
@@ -330,5 +327,17 @@ p {
   text-align: center;
   font-weight: 100;
   color: white;
+}
+
+.div_wrapper{
+  margin: 0 auto;
+}
+
+.position_ul_section3{
+  margin: 0 auto;
+}
+
+.ul_pos_2{
+  margin: 0 auto;
 }
 

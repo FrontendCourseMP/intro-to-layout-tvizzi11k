@@ -67,7 +67,7 @@ nav {
 .h2 {
   color: var(--blue);
   margin: 30px 41px 18px 18px;
-  font-size:x-large;
+  font-size:2rem;
 }
 
 a {
@@ -116,7 +116,7 @@ a {
 }
 
 p {
-  font-size: large;
+  font-size: 1.7rem;
 }
 
 .posittion_header {
@@ -194,7 +194,7 @@ p {
 .h2_2pos {
   padding-top: 60px;
   text-align: center;
-  font-size: x-large;
+  font-size: 2rem;
 }
 
 .p_on_top_sec2{
@@ -235,7 +235,7 @@ p {
 
 .li_p_pos {
   padding: 18px 20px 3px 61px;
-  font-size: 190%;
+  font-size: 1.8rem;
   font-weight: 700;
   text-align: left;
 }
@@ -243,7 +243,7 @@ p {
 .li_p_2_pos {
   padding: 3px 16px 10px 61px;
   text-align: left;
-  font-size: medium;
+  font-size: 1.7rem;
 }
 
 .section_2_ul_2 {
@@ -259,7 +259,7 @@ p {
 
 
 .position_section_2 {
-  background: url(/images/Rectangle23.svg); 
+  background: url(/images/Rectangle23.png); 
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -268,7 +268,7 @@ p {
 
 .h2_sec_2_pos {
   text-align: center;
-  font-size: large;
+  font-size: 2rem;
   padding-top: 60px;
   color: white;
 }
@@ -276,7 +276,7 @@ p {
 .section_2_p_pos {
   margin: 18px 37px 32px 37px;
   text-align: center;
-  font-size: medium;
+  font-size: 1.6rem;
   font-weight: 0;
   color: white;
 }
@@ -287,7 +287,7 @@ p {
 
 .position_h3_section_3 {
   margin: 30px 101px 18px 103px;
-  font-size: large;
+  font-size: 1.4rem;
   color: white;
   text-align: center;
 }
@@ -302,7 +302,7 @@ p {
 
 .h2_pos_section_4{
   margin: 103px 71px 18px 16px;
-  font-size: xx-large;
+  font-size: 3rem;
   text-align: left;
   font-weight: 100;
 }
@@ -323,7 +323,7 @@ p {
 
 .h2_pos_section_5{
   padding: 60px 47px 40px 47px;
-  font-size: x-large;
+  font-size: 2rem;
   text-align: center;
   font-weight: 100;
   color: white;
@@ -341,3 +341,12 @@ p {
   margin: 0 auto;
 }
 
+.p_configurate_section_6 {
+  color: white;
+  padding: 40px 37px 40px 37px;
+}
+
+.video_position{
+  margin: 0 auto;
+  display: block;
+}

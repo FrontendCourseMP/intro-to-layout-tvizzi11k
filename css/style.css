@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital@1&family=Josefin+Sans:wght@400;600&display=swap');
+
 * ::after {
   box-sizing: border-box;
   margin: 0%;
   padding: 0%;
 }
 
-/* vietnamese */
+/* vietnamese
 @font-face {
   font-family: 'Josefin Sans';
   src: url(../Font/JosefinSans-Bold.ttf) format("truetype");
@@ -12,40 +14,34 @@
   font-style: normal;
 }
 /* latin-ext */
-@font-face {
+/* @font-face {
   font-family: 'Josefin Sans';
   src: url(../Font/JosefinSans-Regular.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
-}
+} */
 
-@font-face {
+/* @font-face {
   font-family: "Josefin Sans";
   src: url(../Font/JosefinSans-Italic.ttf) format("truetype");
   font-weight: normal;
   font-style: italic;
-}
+} */
 
-@font-face {
+/* @font-face {
   font-family: "Josefin Sans";
   src: url(../Font/JosefinSans-Thin.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
-}
+} */
 
-@font-face {
+/* @font-face {
   font-family: "Josefin Sans";
   src: url(../Font/JosefinSans-Medium.ttf) format("truetype");
   font-weight: medium;
   font-style: normal;
-}
+} */ */
 
-@font-face {
-  font-family: "Josefin Sans";
-  src: url(../Font/JosefinSans-Light.ttf) format("truetype");
-  font-weight: normal;
-  font-size: normal;
-}
 
 * {
   padding: 0px;
@@ -130,11 +126,13 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
-
+  align-items: center;
+  justify-content: center;
 }
 
 p {
   font-size: 1.7rem;
+  font-weight: 500;
 }
 
 .posittion_header {
@@ -187,6 +185,7 @@ p {
   margin-right: 36px;
   margin-left: 16px;
   max-width: 400px;
+  margin-bottom: 60px;
 }
 
 .p_pos {
@@ -201,12 +200,9 @@ p {
 
 
 .MobileAppMockup {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  padding-left: 55px;
-  padding-right: 55px;
-  padding-top: 45px;
+  width: 268px;
+  margin-left: 55px;
+  margin-right: 55px;
 }
 
 .h2_2pos {
@@ -338,15 +334,9 @@ p {
 
 .section_pos_4{
   background-image: url(/images/Rectangle15.png);
+  padding-top: 60px;
 }
 
-.h2_pos_section_5{
-  padding: 60px 47px 40px 47px;
-  font-size: 2rem;
-  text-align: center;
-  font-weight: 100;
-  color: white;
-}
 
 .div_wrapper{
   margin-left: auto;
@@ -363,10 +353,29 @@ p {
 
 .p_configurate_section_6 {
   color: white;
-  padding: 40px 37px 40px 37px;
+  margin: 40px 37px 40px 37px;
+  font-weight: 100;
 }
 
-.video_position{
-  margin: 0 auto;
-  display: block;
+.about {
+  width: 100%;
+}
+
+.h2_pos_section_5 {
+  color: white;
+  font-weight: 200;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+iframe {
+  max-width: 100%;
+  max-height: 100%;
 }

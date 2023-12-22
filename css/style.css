@@ -393,7 +393,6 @@ iframe {
 
 .slider {
   display: flex;
-  position: relative;
   margin-bottom: 40px;
 }
 
@@ -434,6 +433,7 @@ iframe {
 }
 
 .our_happy_customers__slider_buttons{
+  padding-bottom: 60px;
 
 }
 
@@ -455,7 +455,6 @@ iframe {
 }
 
 .slider:not(.slider.main) {
-  position: absolute;
   max-height: 90%;
   margin-top: 15px;
   z-index: 4;
@@ -469,7 +468,38 @@ iframe {
 
 
 .slider.main {
-  position: relative;
   z-index: 5;
   margin: 0 auto;
+}
+
+.picture{
+  display: none;
+}
+
+.happy_customers_logo{
+  background-color: white;
+  margin: 32px 16px 40px 16px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.position_h3_section_l{
+  margin-bottom: 18px;
+}
+
+.center_p{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.pos_img_sec_l{
+  padding-top: 20px;
+  padding-bottom: 12px;
+}
+
+.h2_sec_l{
+  padding-top: 12px;
+  padding-bottom: 5px;
 }

@@ -380,7 +380,8 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 60px;
+  margin-top: 60px;
+  position: relative;
 }
 
 iframe {
@@ -504,4 +505,8 @@ iframe {
 .h2_sec_l{
   padding-top: 12px;
   padding-bottom: 5px;
+}
+
+.wrapper{
+  max-width: 375px;
 }

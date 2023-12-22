@@ -361,6 +361,8 @@ p {
   color: white;
   margin: 40px 37px 40px 37px;
   font-weight: 100;
+  text-align: center;
+  font-size: 1.6rem;
 }
 
 .about {

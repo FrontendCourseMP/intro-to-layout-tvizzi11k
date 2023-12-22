@@ -336,8 +336,10 @@ p {
 }
 
 .section_pos_4{
-  background-image: url(/images/Rectangle15.png);
+  background-color: #5851EA;
   padding-top: 60px;
+  padding-bottom: 40px;
+  position: relative;
 }
 
 
@@ -380,7 +382,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 60px;
+  margin-top: -60px;
   position: relative;
 }
 

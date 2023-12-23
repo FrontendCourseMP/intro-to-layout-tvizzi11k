@@ -509,7 +509,7 @@ iframe {
 }
 
 .wrapper{
-  min-width: 375px;
+  max-width: 375px;
 }
 
 .section_pos_4_l{
@@ -630,7 +630,7 @@ iframe {
 }
 
 .pos_h2_footer{
-  margin-top: 60px;
+  padding-top: 60px;
   text-align: left;
   font-size: 3rem;
 
@@ -639,6 +639,7 @@ iframe {
 .p_pos_footer{
   padding-top: 5px;
   padding-bottom: 40px;
+  padding-right: 25px;
 }
 
 .ul_pos_footer{
@@ -676,6 +677,7 @@ iframe {
 .sub_footer{
   font-size: 1.5rem;
   padding-bottom: 33px;
+  padding-right: 61px;
 }
 
 .news_form {

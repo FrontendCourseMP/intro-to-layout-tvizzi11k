@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital@1&family=Josefin+Sans:wght@400;600&display=swap');
 
-* ::after {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
   margin: 0%;
   padding: 0%;
+  outline: 2px solid red;
 }
 
 /* vietnamese
@@ -145,13 +148,18 @@ p {
   border-radius: 3px;
 }
 
+body{
+  width: 100%;
+}
+
+.position_email{
+  display:none;
+}
+
 .header {
   width: 100%;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding: 30px 16px;
   background: var(--blue);
-  padding-top: 30px;
-  padding-bottom: 30px;
 }
 
 .a_position {
@@ -509,7 +517,9 @@ iframe {
 }
 
 .wrapper{
-  max-width: 375px;
+  width: 375px;
+  margin: 0 auto; 
+  padding: 0;
 }
 
 .section_pos_4_l{

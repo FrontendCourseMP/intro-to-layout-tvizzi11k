@@ -556,7 +556,8 @@ iframe {
 }
 
 .img_l_sec{
-  object-fit: fill;
+  width: 343px;
+  height: 228px;
 }
 
 .a_pos_l{

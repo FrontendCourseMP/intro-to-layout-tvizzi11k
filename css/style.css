@@ -509,7 +509,7 @@ iframe {
 }
 
 .wrapper{
-  max-width: 400px;
+  min-width: 375px;
 }
 
 .section_pos_4_l{

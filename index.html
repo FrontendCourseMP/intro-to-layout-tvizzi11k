@@ -310,7 +310,9 @@
             </p>
             <form class="news_form" action="#" method="get">
                 <span class="form__text">enter your email</span>
-                <input class="input_email" type="email" placeholder="Your email adress">
+                <label id="input_email_l" for="input_email">
+                    <input class="input_email" id="input_email" aria-labelledby="input_email_l" type="email" placeholder="Your email adress">
+                </label>
                 <button class="email_button" type="submit"><img
                         src="images/send-plane-2-fill.svg" alt="send-plane-2-fill"></button>
             </form>

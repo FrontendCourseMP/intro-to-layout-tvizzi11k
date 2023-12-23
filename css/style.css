@@ -236,7 +236,6 @@ body{
   border-radius: 10px;
   margin-top: 20px;
   position: relative;
-
 }
 
 .section_2_ul::before {
@@ -663,7 +662,7 @@ iframe {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-right: 30px;
+  gap: 30px;
 }
 
 .line_pos_f{
@@ -747,5 +746,12 @@ iframe {
 }
 
 .img_l_sec_2{
-  object-fit: fill;
+  width: 343px;
+  height: 228px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.ul_pos_2{
+  display: flex;
 }

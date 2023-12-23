@@ -565,8 +565,8 @@ iframe {
 }
 
 .img_l_sec{
-  width: 343px;
-  height: 228px;
+  object-fit: fill;
+  border-radius: 10px;
 }
 
 .a_pos_l{
@@ -744,4 +744,8 @@ iframe {
 
 .copyright_text {
   margin: 0;
+}
+
+.img_l_sec_2{
+  object-fit: fill;
 }

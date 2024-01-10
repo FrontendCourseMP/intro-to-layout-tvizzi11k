@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>APPOLLY</title>
+    <style>
+        .grid_container {
+            display: grid;
+            grid-template-columns: repeat(5, 100px);
+            grid-template-rows: repeat(5, 100px);
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            justify-content: center;
+            padding-top: 100px;
+        }
+        
+        .item{
+            border: 4px solid;
+        }
+        .item_1 { 
+            grid-area: 5 / 1 / 6 / 2;
+            background-color: black;
+        }
+        .item_2 { 
+            grid-area: 5 / 2 / 6 / 4; 
+        }
+        .item_3 { 
+            grid-area: 2 / 1 / 5 / 4; 
+            background-color: red;
+        }
+        .item_4 { 
+            grid-area: 1 / 1 / 2 / 4; 
+        }
+        .item_5 { 
+            grid-area: 1 / 4 / 2 / 6; 
+            background-color: yellow;
+        }
+        .item_6 { 
+            grid-area: 2 / 4 / 4 / 6;
+            background-color: yellow; 
+        }
+        .item_7 { 
+            grid-area: 4 / 4 / 5 / 5; 
+        }
+        .item_8 { 
+            grid-area: 4 / 5 / 5 / 6; 
+        }
+        .item_9 { 
+            grid-area: 5 / 4 / 6 / 6; 
+        }
+
+        .dashboard-section {
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            padding: 20px 0;
+        }
+
+        aside {
+            background-color: gray;
+            color: white;
+        }
+
+        .charts {
+            display: grid;
+            grid-template-areas:
+                "chart1 chart1 chart1 chart1 chart1 chart1"
+                "chart2 chart2 chart3 chart3 chart4 chart4"
+                "chart5 chart5 chart5 chart6 chart6 chart6";
+            gap: 36px 52px;
+            background-color: #f5f5f5;
+            padding: 52px;
+        }
+
+        .chart {
+            background-color: white;
+            padding: 24px;
+            border-radius: 12px;
+            box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .chart img {
+            display: block;
+        }
+
+        .chart:first-child {
+            grid-area: chart1;
+        }
+
+        .chart:nth-child(2) {
+            grid-area: chart2;
+        }
+
+        .chart:nth-child(3) {
+            grid-area: chart3;
+        }
+
+        .chart:nth-child(4) {
+            grid-area: chart4;
+        }
+
+        .chart:nth-child(5) {
+            grid-area: chart5;
+        }
+
+        .chart:last-child {
+            grid-area: chart6;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 32px;
+        }
+
+        .gallery__image {
+            width: 100%;
+            object-fit: contain;
+            border-radius: 12px;
+            box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.1);
+            border: 4px dashed #444cf7;
+        }
+
+        .gallery__image:first-child {
+            padding-left: 140px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header wrapper">
+        <ul class="position_email">
+            <li>
+                <a href="mailto:info@mail.ru">info@yandex.ru<img src="../images/mail-fill.svg" alt="mail"></a>
+                <a href="tel:+79121429614">8(912)142-96-14 <img src="../images/phone-fill.svg" alt="phone_number"></a>
+            </li>
+            <li>
+                <a href="http://facebook.com/" target="_blank"><img src="../images/facebook-fill.svg" alt="facebook"></a>
+                <a href="http://instagram.com/" target="_blank"><img src="../images/instagram-fill.svg" alt="inst"></a>
+                <a href="http://twitter.com/" target="_blank"><img src="../images/twitter-fill.svg" alt="twitter"></a>
+                <a href="https://www.youtube.com/" target="_blank"><img src="../images/youtube-fill.svg" alt="youtube"></a>
+            </li>
+        </ul>
+        <nav class="posittion_header ">
+            <h1 hidden>123</h1>
+            <button class="burger_menu_button">
+                <img src="../images/burger.svg" alt="burger_menu_button">
+            </button>
+            <a href="https://appollly.netlify.app" class="a_position"><img src="../images/Logo.svg" alt="logo"></a>
+            <a href="" class="link">DOWNLOAD</a>
+            <link rel="stylesheet" href="./form.html">
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="grid_container">
+                <div class="item_1 item"></div>
+                <div class="item_2 item"></div>
+                <div class="item_3 item"></div>
+                <div class="item_4 item"></div>
+                <div class="item_5 item"></div>
+                <div class="item_6 item"></div>
+                <div class="item_7 item"></div>
+                <div class="item_8 item"></div>
+                <div class="item_9 item"></div>
+            </div>
+        </section>
+        <section class="dashboard-section">
+            <aside>
+                link_1
+                link_2
+                link_3
+                link_4
+            </aside>
+            <div class="charts">
+                <img class="chart" src="../images/chart_1.png" alt="chart_1"/>
+                <img class="chart" src="../images/chart_2.png" alt="chart_2"/>
+                <img class="chart" src="../images/chart_3.png" alt="chart_3"/>
+                <img class="chart" src="../images/chart_4.png" alt="chart_4"/>
+                <img class="chart" src="../images/chart_5.png" alt="chart_5"/>
+                <img class="chart" src="../images/chart_6.png" alt="chart_6"/>
+            </div>
+        </section>
+        <section class="gallery">
+            <img class="gallery__image" height="400" src="../images/Image11.jpg" alt="image">
+            <img class="gallery__image" height="400" src="../images/android-smartphone-free-mockup1.svg" alt="image">
+            <img class="gallery__image" height="400" src="../images/FreeUiViewMobileAppMockup1.png" alt="image">
+            <img class="gallery__image" height="400" src="../images/cell-phone.svg" alt="image">
+            <img class="gallery__image" height="400" src="../images/snapchat.jpeg" alt="image">
+            <img class="gallery__image" height="400" src="../images/last_img.jpeg" alt="image">
+        </section>
+    </main>
+    <footer class="wrapper main_footer">
+        <div class="footer_1">
+            <h2 class="white_color pos_h2_footer">
+                LOGO
+            </h2>
+            <p class="white_color p_pos_footer">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae,
+                nullam lobortis enim.
+            </p>
+            <ul class="ul_pos_footer">
+                <li class="pos_li_footer">
+                    <a href="http://facebook.com/" target="_blank"><img src="../images/facebook-fill.svg" alt="facebook"></a>
+                    <img class="line_pos_f" src="../images/Line4.svg" alt="line">
+                </li>
+                <li class="pos_li_footer">
+                    <a href="http://instagram.com/" target="_blank"><img src="../images/instagram-fill.svg" alt="instagram"></a>
+                    <img class="line_pos_f" src="../images/Line4.svg" alt="line">
+                </li>
+                <li class="pos_li_footer">
+                    <a href="http://twitter.com/" target="_blank"><img src="../images/twitter-fill.svg" alt="twitter"></a>
+                    <img class="line_pos_f" src="../images/Line4.svg" alt="line">
+                </li>
+                <li class="pos_li_footer">
+                    <a href="https://www.youtube.com/" target="_blank"><img src="../images/youtube-fill.svg" alt="youtube"></a>
+                </li>
+            </ul>
+            <h3 class="white_color h3_footer">
+                QUICK LINK
+            </h3>
+            <ul class="white_color">
+                <li class="ul_footer_2">
+                    <a href="https://vk.com/kuratortv" target="_blank">About</a>
+                </li>
+                <li class="ul_footer_2">
+                    <a href="https://vk.com/kuratortv" target="_blank">Features</a>
+                </li>
+                <li class="ul_footer_2">
+                    <a href="https://vk.com/kuratortv" target="_blank">Screenshot</a>
+                </li>
+                <li class="ul_footer_2">
+                    <a href="https://vk.com/kuratortv" target="_blank">Blog</a>
+                </li>
+            </ul>
+            <h3 class="white_color h3_footer padding_h3_f">
+                NEWS LETTER
+            </h3>
+            <p class="white_color sub_footer">
+                Subscribe our newsletter to get our latest update & news
+            </p>
+            <form class="news_form" action="#" method="get">
+                <span class="form__text">enter your email</span>
+                <label id="input_email_l" for="input_email">
+                    <input class="input_email" id="input_email" aria-labelledby="input_email_l" type="email" placeholder="Your email adress">
+                </label>
+                <button class="email_button" type="submit"><img
+                        src="../images/send-plane-2-fill.svg" alt="send-plane-2-fill"></button>
+            </form>
+            <div class="copyright_footer">
+                <p class="copyright_icon white_color">
+                    &copy;
+                </p>
+                <p class="copyright_text white_color">
+                    Copyright 2021. Ojiomedia. All Right Reseved
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -515,7 +515,6 @@ iframe {
 }
 
 .wrapper{
-  width: 375px;
   margin: 0 auto; 
   padding: 0;
 }
@@ -754,4 +753,10 @@ iframe {
 
 .ul_pos_2{
   display: flex;
+}
+
+@media (min-width: 375px) {
+  .block {
+    display: flex;
+  }
 }

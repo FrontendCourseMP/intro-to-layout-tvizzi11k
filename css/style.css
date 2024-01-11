@@ -62,7 +62,6 @@
 
 a[href^="mailto:"] {
   line-height: 32px;
-  color: #000000;
 }
 
 ul {
@@ -138,7 +137,6 @@ p {
 
 .posittion_header {
   position: relative;
-  width: 343px;
   display: flex;
   justify-content: space-between;
   background: white;
@@ -146,6 +144,8 @@ p {
   padding: 3px 3px 3px 9px;
   border-radius: 3px;
   margin: auto;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 body{
@@ -153,7 +153,7 @@ body{
 }
 
 .position_email{
-  display:none;
+  align-items: center;
 }
 
 .header {
@@ -182,6 +182,7 @@ body{
 
 .burger_menu_button {
   height: 24px;
+  display: none;
 }
 
 .square_hero {
@@ -754,22 +755,84 @@ iframe {
   display: flex;
 }
 
-@media (min-width: 375px) {
+@media (min-width: 375px){
   .block {
     display: flex;
+  }
+
+  .burger_menu_button{
+    display: flex;
+  }
+
+  .header_menu{
+    display: none;
   }
 }
 
 .header_position_2{
   padding-top: 30px;
-}
-
-@media (min-width: 375px) {
-  .position_email{
-    display: flex;
-  }
+  align-items: center;
+  
 }
 
 .mail_pos{
-  font-size: 2rem;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.mail_icon_pos{
+  margin: 30px 18px 20px 40px;
+}
+
+.phone_pos{
+  font-size: 1.5rem;
+  color: white;
+}
+
+.phone_icon_pos{
+  margin: 28px 18px 20px 40px;
+}
+
+@media (min-width: 1440px) {
+  .header_menu {
+    display: flex;
+  }
+
+  .burger_menu_button{
+    display: none;
+  }
+
+  .link {
+    padding-right: 6px;
+  }
+
+}
+.header_home{
+  margin-left: 52px;
+}
+
+.header_menu {
+  display: none;
+  align-items: center;
+}
+
+.position_info {
+  align-items: center;
+  display: none;
+}
+
+.position_icons {
+  align-items: center;
+  padding-top: 38px;
+  display: none;
+}
+
+@media(min-width: 768px) {
+  .position_info{
+    display: flex;
+  }
+
+  .position_icons {
+    display: flex;
+  }
 }

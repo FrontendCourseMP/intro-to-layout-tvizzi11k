@@ -138,13 +138,14 @@ p {
 
 .posittion_header {
   position: relative;
-  width: 100%;
+  width: 343px;
   display: flex;
   justify-content: space-between;
   background: white;
   align-items: center;
   padding: 3px 3px 3px 9px;
   border-radius: 3px;
+  margin: auto;
 }
 
 body{
@@ -156,8 +157,6 @@ body{
 }
 
 .header {
-  width: 100%;
-  padding: 30px 16px;
   background: var(--blue);
 }
 
@@ -759,4 +758,8 @@ iframe {
   .block {
     display: flex;
   }
+}
+
+.header_position_2{
+  padding-top: 30px;
 }
